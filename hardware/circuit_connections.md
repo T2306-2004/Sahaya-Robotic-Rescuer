@@ -1,4 +1,4 @@
- 🔌 Sahaya – Circuit Connections
+Sahaya – Circuit Connections
 
  🔹 Arduino Mega Connections
 
@@ -12,12 +12,12 @@
 
 | L293D Pin | Arduino Pin |
 |-----------|-------------|
-| ENA | Pin 5 |
-| IN1 | Pin 6 |
-| IN2 | Pin 7 |
-| IN3 | Pin 8 |
-| IN4 | Pin 9 |
-| ENB | Pin 10 |
+| ENA       | Pin 5       |
+| IN1       | Pin 6       |
+| IN2       | Pin 7       |
+| IN3       | Pin 8       |
+| IN4       | Pin 9       |
+| ENB       | Pin 10      |
 
 Motor A → Left DC Motor  
 Motor B → Right DC Motor  
@@ -26,24 +26,24 @@ Motor B → Right DC Motor
 
  🎯 PCA9685 Servo Driver (I2C)
 
-| PCA9685 | Arduino Mega |
+| PCA9685  | Arduino Mega |
 |----------|--------------|
-| VCC | 5V |
-| GND | GND |
-| SDA | Pin 20 |
-| SCL | Pin 21 |
+| VCC      | 5V           |
+| GND      | GND          |
+| SDA      | Pin 20       |
+| SCL      | Pin 21       |
 
 Servos connected to channels 0–3.
 
 
 
-💡 LED Indicator
+ LED Indicator
 - Anode → Pin 13
 - Cathode → GND (via resistor)
 
 
 
- 🔹 NodeMCU (ESP8266) to Arduino Mega
+ NodeMCU (ESP8266) to Arduino Mega
 
 | NodeMCU | Arduino Mega |
 |----------|-------------|
